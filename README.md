@@ -18,7 +18,10 @@ Process to install and setup the project  :-
 node_modules
 build
 dist
+
 7.npx husky-init && npm install( install pre commit hooks husky)
+
 8.npm install --save-dev lint-staged
+
 9.Enable the pre-commit hook:
 npx husky set .husky/pre-commit "npx lint-staged"
